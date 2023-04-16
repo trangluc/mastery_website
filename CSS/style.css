@@ -1,0 +1,176 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+
+}
+
+/* NAVIGATION */
+.header {
+    background-color: white;
+    padding: 8px 144px;
+}
+
+.logo {
+    padding: 8px 0;
+}
+.logo i {
+    padding:16px;
+    background-color:#002146;
+    color: #fdc800;
+    font-size: 32px;
+    border-radius: 32px;
+
+}
+
+.logo a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.navbar {
+    padding: 8px 0;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+.navbar ul li {
+    color:black; 
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 48px;
+}
+
+/* BANNER */
+.banner {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+/* INTRODUCTION */
+
+.introduction {
+    width: 80%;
+    margin: auto;
+    padding: 56px 0;
+}
+.introduction_text {
+    width: 50%;
+    float: left;
+}
+
+.introduction_text h2 {
+    font-size: 32px;
+    font-style: bold;
+    padding-bottom: 16px;
+}
+
+.introduction_text p {
+    font-size: 20px;
+    padding: 16px 0;
+    color: grey;
+}
+
+.introduction_text button {
+    font-size: 20px;
+    margin: 32px 0;
+    padding: 16px 32px;
+    color: grey;
+    border-width: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-style: bold;
+    color:#002146;
+    background-color: #fdc800;
+}
+
+.introduction_image {
+    width: 50%;
+    float:left;
+    background-image: url(../images/g1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 440px;
+}
+
+.clear_both {
+    clear: both;
+}
+
+/* HIGHTLIGHT */
+.highlight {
+    background-color: #f6f6f6;
+}
+
+.highlight__content {
+    width: 80%;
+    margin: auto;
+    padding: 56px 0;
+}
+
+
+.highlight .highlight_item {
+    float: left;
+    width: 25%;
+    padding: 0 40px;
+}
+
+.clear_both {
+    clear:both;
+}
+
+.highlight .number {
+    font-size: 56px;
+    float:left;
+    width: 25%;
+
+}
+
+.highlight .text {
+    font-size: 20px;
+    float: left;
+    width: 75%;
+    align-items: center;
+    padding: 8px 0;
+}
+
+/* CATEGORY */
+.category {
+    padding: 56px 0;
+}
+.category__content__1 {
+    width: 80%;
+    margin: auto;
+}
+
+.category__content__2 {
+    width: 80%;
+    margin: auto;
+}
+
+.category__item {
+    float: left;
+    width: 25%;
+    padding: 16px;
+}
+.category__item__content {
+    padding: 40px;
+    color: white;
+    background-color: #002146;
+    text-align: center;
+    font-size: 20px;
+}
+
+.category__item i {
+    font-size: 40px;
+    padding: 0 0 4px 0;
+}
+
+.clear__both {
+    clear: both;
+}
